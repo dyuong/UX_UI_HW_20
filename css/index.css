@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: solid 1px RGB(0,0,0,0.2);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.nav {
+    display: flex;
+    margin-right: 6%;
+    justify-content: space-around;
+}
+
+.nav-item {
+    padding: 5%;
+    margin-right: 5px;
+    display: inline;
+    vertical-align: top;
+    margin-left: auto;
+}
+
+.nav-item:hover {
+    font-weight: bold;
+}
+
+.intro {
+    height: calc(90vh);
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    margin-left: 15%;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.text {
+    margin-left: 5%;
+}
+
+
+
+.line1 {
+    font-weight: bold;
+    display: inline-block;
+    font-size: 40px;
+}
+
+.line2 {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.line1:hover {
+    color: #2E7AFF;
+}
+
+
+.text div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.down {
+    position: absolute;
+    left: 50%;
+    bottom: 3%;
+    transition: all 0.5s ease;
+}
+
+.down:hover {
+    transform: translate(0px,10px);
+}
+
+.travelbuddy {
+    height: 600px;
+    background-color: #87AEF7;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.travelbuddy-container {
+    display: inline-block;
+    margin-left: 20%;
+}
+
+.travelbuddy-text {
+    width: 500px;
+    margin-right: 12%;
+    float: right;
+}
+
+.tb-button {
+    padding: 20px;
+    border-radius: 25px;
+    background-color: RGB(0,0,0,0);
+    color: white;
+    border-color: white;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.tb-button:hover {
+    padding: 20px;
+    border-radius: 25px;
+    background-color: white;
+    color: #87AEF7;
+    border-color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+.giftofbread {
+    height: 600px;
+    background-color: #FFF6E0;
+    color:#3C3C3C;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gob-container {
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.giftofbread-text {
+    width: 500px;
+    margin-right: 12%;
+    float: right;
+}
+
+.giftofbread button {
+    padding: 20px;
+    border-radius: 25px;
+    background-color: RGB(0,0,0,0);
+    color: #3C3C3C;
+    border-color: #3C3C3C;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.newme {
+    height: 600px;
+    background-color: #F9E5EC;
+    color: #403A50;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newme-container {
+    display: inline-block;
+    margin-left: 20%;
+}
+
+.newme-text {
+    width: 500px;
+    margin-right: 12%;
+    float: right;
+}
+
+.newme button {
+    padding: 20px;
+    border-radius: 25px;
+    background-color: RGB(0,0,0,0);
+    color: #403A50;
+    border-color: #403A50;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+
+.abc {
+    height: 600px;
+    background-color: #434C5F;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.abc-container {
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.abc-text {
+    width: 500px;
+    margin-right: 12%;
+    float: right;
+}
+
+.abc button {
+    padding: 20px;
+    border-radius: 25px;
+    background-color: RGB(0,0,0,0);
+    color: white;
+    border-color: white;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons img {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+h2 {
+    font-size: 20px;
+}
+nav {
+    font-size: 14px;
+}
+
+.intro {
+    height: calc(90vh);
+}
+
+.line1 {
+        font-size: 20px;
+}
+
+.line2 {
+    font-size: 16px;
+}
+
+.travelbuddy {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.travelbuddy-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+}
+
+.travelbuddy-container {
+    margin-top: -4%;
+    margin-left: -10%;
+}
+.travelbuddy img {
+    height: 25em;
+}
+
+.giftofbread {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.giftofbread-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+}
+
+.gob-container {
+    margin-top: -4%;
+    margin-left: -10%;
+}
+.giftofbread img {
+    height: 15em;
+}
+
+.newme {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.newme-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+}
+
+.newme-container {
+    margin-top: -4%;
+    margin-left: -10%;
+}
+.newme img {
+    height: 25em;
+}
+
+.abc {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.abc-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+}
+
+.abc-container {
+    margin-top: -4%;
+    margin-left: -10%;
+}
+.abc img {
+    height: 15em;
+}
+
+}
+
