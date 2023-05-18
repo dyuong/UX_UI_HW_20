@@ -130,26 +130,18 @@ nav a {
 }
 
 .tb-button {
-    padding: 20px;
-    border-radius: 25px;
+    padding: 20px 30px;
+    border: solid 2px white;
+    border-radius: 50px;
     background-color: RGB(0,0,0,0);
     color: white;
-    border-color: white;
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 10px;
 }
 
-.tb-button:hover {
-    padding: 20px;
-    border-radius: 25px;
-    background-color: white;
-    color: #87AEF7;
-    border-color: white;
-    font-size: 16px;
-    margin-top: 10px;
+button:hover {
     font-weight: bold;
 }
-
 
 .giftofbread {
     height: 600px;
@@ -173,12 +165,12 @@ nav a {
 }
 
 .giftofbread button {
-    padding: 20px;
-    border-radius: 25px;
+    padding: 20px 30px;
+    border-radius: 50px;
+    border: solid 2px #3C3C3C;
     background-color: RGB(0,0,0,0);
     color: #3C3C3C;
-    border-color: #3C3C3C;
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 10px;
 }
 
@@ -204,12 +196,12 @@ nav a {
 }
 
 .newme button {
-    padding: 20px;
-    border-radius: 25px;
+    padding: 20px 30px;
+    border-radius: 50px;
+    border: solid 2px #403A50;
     background-color: RGB(0,0,0,0);
     color: #403A50;
-    border-color: #403A50;
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 10px;
 }
 
@@ -237,12 +229,12 @@ nav a {
 }
 
 .abc button {
-    padding: 20px;
-    border-radius: 25px;
+    padding: 20px 30px;
+    border-radius: 50px;
+    border: solid 2px white;
     background-color: RGB(0,0,0,0);
     color: white;
-    border-color: white;
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 10px;
 }
 
