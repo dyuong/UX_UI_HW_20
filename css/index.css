@@ -24,15 +24,19 @@ nav {
     position: sticky;
     top: 0;
     background-color: white;
+    z-index: 999;
 }
 
+
 .nav {
+    all:unset;
     display: flex;
     margin-right: 6%;
     justify-content: space-around;
 }
 
 .nav-item {
+    all:unset;
     padding: 5%;
     margin-right: 5px;
     display: inline;
@@ -40,8 +44,13 @@ nav {
     margin-left: auto;
 }
 
-.nav-item:hover {
+nav a:hover {
     font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
 }
 
 .intro {

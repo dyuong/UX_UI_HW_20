@@ -9,14 +9,13 @@
 <body>
 
 <nav>
-    <div class="nav">
-            <div class="nav-item" id="home">Home</div>
-            <div class="nav-item" id="about">About</div>
-            <div class="nav-item">CV</div>
-            <div class="nav-item">Linkedin</div>
-    </div>
+    <ul class="nav">
+      <li id="home" class="nav-item"><a href="#">Home</a></li>
+      <li id="about" class="nav-item"><a href="#">About</a></li>
+      <li id="CV" class="nav-item"><a href="#">CV</a></li>
+      <li id="Linkedin" class="nav-item"><a href="#">Linkedin</a></li>
+    </ul>
 </nav>
-
 
 <section class="tb-intro">
     <div id="line1">Travel Buddy</div>
@@ -40,7 +39,7 @@
         The startup’s goal is to build a modern-day mobile app that helps people plan their next trip”</div>
         </div>
     <div id="solution">
-        <div style="font-size:24px; font-weight:bold; margin-bottom: 2%;"> The Solution </div>
+        <div style="font-size:24px; font-weight:bold; margin-bottom: 2%;"> Design Solution </div>
         <div> Design a mobile app which allows users to easily create and customise their travel itinerary in a collaborative manner.</div>
     </div>
 </div>
@@ -91,58 +90,76 @@
 
 <section class="research">
     <div class="research-intro">
-        <div style="font-size:36px; font-weight:bold; margin-bottom:1%"> Research</div>
-        <div style>The first step of the design process was to gather some data from our target users.<br>
-        The research objective I developed was to discover the pain points users experience when planning travel overseas.
+        <div style="font-size:36px; font-weight:bold; margin-bottom:1%">Research</div>
+        <div style>In designing a mobile app to help people plan their next trip, the first step of the design process was to conduct research to uncover the pain points people experienced when planning their trips. 
+        The aim of the research would be to first identify key problems that people experienced, before being able to ideate possible solutions in the form of a mobile app. </div>
         <br><br>
-        I utilised both qualitative and quantitative methods in gathering data. The summary of my user research is displayed below.
+        I utilised both qualitative and quantitative research methods in order to achieve this, with the summary of my research displayed below.
         </div>    
     </div>
     <div class="interviews">
         <div style="font-size:24px; font-weight:bold; margin-bottom:1%"> Interviews</div>
         <div style>I conducted 5 one-to-one interviews with users who have all traveled within the past year.
         <br><br>
-        I collated the data onto sticky notes, and then categorized the data through an affinity diagram to have a better understanding of my target users. 
+        I collated the data onto sticky notes, and then categorized the data through an affinity diagram to get a better picture of the data collected.
         </div>
     </div>
     <img style="width:1000px; margin-top:5%" src="images/tb/Affinity Diagram.jpg">
-    <div class="surveys">
-        <div style="font-size:24px; font-weight:bold; margin-bottom:1%"> Surveys</div>
-        <div style>I also conducted a survey which was completed by 17 participants, with all users having traveled overseas previously. 
-        <br><br>
-        Some of the key findings are displayed on the graphs below (horizontal scale from 1 to 5 represents Strongly Disagree (1) to Strongly Agree (5)). 
+    
+    <div class="research-intro" style="margin-top:5%;">
+            <div style="font-size:24px; font-weight:bold; margin-bottom:1%"> Surveys</div>
+            <div style>I also conducted a survey which was completed by 17 participants, with all users having traveled overseas previously. 
+            <br><br>
+            Some of the key findings are displayed on the graphs below (horizontal scale from 1 to 5 represents Strongly Disagree (1) to Strongly Agree (5)). 
+            </div>
         </div>
     </div>
-    <div class="graphs">
-    <div class=graph1>
-        <img src="images/tb/Graph2.png" width="600px";>
-        <div class="graph1-text">8 out of 17 respondents (47%) report they feel overwhelmed by the number of options when planning for trips.</div>
-    </div>
-    <div class=graph2>
-        <img src="images/tb/Graph1.png" width="600px";>
-        <div class="graph2-text">9 out of 17 respondents (53%) report they struggle to fit everything they want to do in their itinerary.</div>
-    </div>
-    <div class=graph3>
-        <img src="images/tb/Graph3.png" width="600px";>
-        <div class="graph3-text">12 out of 17 respondents (71%) report they have found it difficult to accomodate to everyone's preferences whilst traveling</div>
-    </div>
+
+    <div class="container container-graphs">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 26rem;">
+                    <img src="images/tb/graph2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">8 out of 17 respondents (47%) report they feel overwhelmed by the number of options when planning for trips.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 26rem;">
+                    <img src="images/tb/Graph1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">9 out of 17 respondents (53%) report they struggle to fit everything they want to do in their itinerary.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 26rem;">
+                    <img src="images/tb/Graph3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">12 out of 17 respondents (71%) report they have found it difficult to accomodate to everyone's preferences whilst traveling.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
 <section class="define">
     <div class="define-intro">
         <div style="font-size:36px; font-weight:bold; margin-bottom:1%"> Define</div>
-        <div>From the research, I was able to gather a few key insights into the pain points user’s experience when planning travel overseas.</div>    
+        <div>After collating and synthesizing the data from my research, a few key insights came across: </div>    
     </div>
     <div class="user-insights">
         <div>
-            The methods, time-frame and preferences when planning trips varies significantly between people <br><br>
+            Scheduling everything into a cohesive itinerary can be time-consuming and difficult <br><br>
             Planning trips can be stressful due to the sheer number of options available <br><br>
-            Scheduling everything into a cohesive itinerary can be time-consuming and difficult
+            The methods, time-frame and preferences when planning trips varies significantly between people   
         </div>
     </div>
     <div class="define-intro" style="margin-top:3%">
-        <div>Keeping the insights learnt in mind, I developed a couple of personas to get a better feel of my target users, as well as help guide the rest of my design process. </div>    
+        <div>Although there were a lof of insights learnt from the research, the key message that came across was that a significant percentage of the research participants found planning travel to be stressful, and for a wide number of reasons. <br><br>
+        Keeping the insights learnt in mind, I developed a couple of personas to better represent my target users, as well as help guide the rest of my design process. </div>
     </div>
 
 <div id="carouselExample" class="carousel slide" data-bs-theme="dark">
@@ -152,9 +169,11 @@
       </button>
     <div class="carousel-inner">
       <div class="carousel-item active">
+        <div class="persona-text">Primary Persona: The Organised Planner</div>
         <img src="images/tb/persona1.png" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
+        <div class="persona-text">Secondary Persona: The Laidback Traveler</div>
         <img src="images/tb/persona2.png" class="d-block w-100" alt="...">
       </div>
     </div>
@@ -164,9 +183,122 @@
     </button>
     </div>
 </div>
+
+<div class="define-intro" style="margin-top:5%">I also made a user journey map to better empathise with my target user and their typical journey when planning a trip. <br>  Developing the journey map also provided some insight into pain points which my mobile app could address, which I kept in mind for later on in the design process.
+</div>
+<img src="images/tb/user-journey-map.png" width="1200px" style="margin-top:3%;";>
+
+<div class="define-intro" style="margin-top: 5%">
+<div style="font-size:24px; font-weight:bold; margin-bottom:1%"> Problem Statement</div>
+Lastly, the research allowed me to define a problem statement in which my mobile app was to answer.
+</div>
+
+<div class="problem-statement">
+    How might we ensure that creating an itinerary is as simple and as straightforward as possible? <br><br>
+    How might we allow for a collaborative travel planning method which takes into account differences in preferences, values and methods of planning?
+</div> 
 </section>
 
-</body>
+<section class="ideate">
+    <div class="ideate-intro">
+        <div style="font-size:36px; font-weight:bold; margin-bottom:1%"> Ideate</div>
+        <div>After defining personas and a problem statement, it was time to generate ideas for my itinerary planning mobile app. 
+            <br><br>
+            I started by completing a comparative analysis with other itinerary-planning apps in the market, which allowed me to determine any market gaps to capitalise on. This step also served as an inspiration for features for my app to include, as well as the overall look and feel of my eventual design.
+        </div>    
+    </div>
+    <img src="images/tb/comparative-analysis.png" width="1100px" style="margin-top:3%;";>
+    <div class="ideate-intro" style="margin-top:5%">Lastly, I created some user flows for key features my mobile app was to include, in order to flesh out any issues or pain points that users might encounter prior to designing. This step also served as a basis for my initial wireframes.</div>
+    <img src="images/tb/user-flow-three.png" width="1100px" style="margin-top:3%;";>
+</section>
+
+<section class="prototype">
+    <div class="prototype-intro">
+        <div style="font-size:36px; font-weight:bold; margin-bottom:1%"> Prototype & Testing</div>
+        <div>After ideating, it was finally time to start building my designs. Eager to create, I opened up Figma and began working on my initial wireframes.
+        </div>
+    </div>
+    <div class="initial-wireframes">Initial Wireframes</div>
+    <img src="images/tb/initial-wireframes.png" width="1200px">
+    <div class="initial-wireframes">High Fidelity Prototype</div>
+    <img src="images/tb/high-fidelity-prototype.png" width="1200px">
+    <div class="prototype-intro" style="margin-top: 5%;">After designing my initial wireframes, it was time to do some usability testing to help validate my concepts. Throughout the building process, I conducted usability tests in order to constantly receive feedback, which allowed me to continually iterate and refine my designs to match my user’s needs and goals for an itinerary planning app. <br><br>
+        I completed 6 usability tests in total, with some of the feedback being displayed below:
+    </div>
+
+
+    <div class="container containerFeedback">
+        <div class="row rowFeedback">
+            <div class="col-sm feedback-col-1">
+                <div class="feedback-title"> Feedback in Verbatim </div>
+                <div class="feedback-text"> 
+                    “I can’t tell how long each event goes for in the itinerary” <br><br>
+
+                    “I think it’d be good if you could save the attraction from the display page”<br><br>
+                    
+                    “Where do I view my previous itineraries?”<br><br>
+                    
+                    “Where does the rating come from?”<br><br>
+                    
+                     “It’d be nice if you could navigate through the days in the itinerary by swiping”</div>
+            </div>
+            <div class="col-sm feedback-col-1">
+                <div class="feedback-title"> Opportunities </div>
+                <div class="feedback-text"> 
+                    <ul> 
+                        <li>Add ability to set start and end time for events in itinerary <br><br></li>
+                        <li>Add save icon to attractions/hotels in the display page <br><br></li>
+                        <li>AAdd option to view previous itineraries in “Saved” tab <br><br></li>
+                        <li> Add feature to rate and leave reviews for attractions/hotels <br><br></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="prototype-intro" style="margin-top: 5%";>Taking all the feedback on board, I continuously iterated and refined my design, culminating towards the final clickable prototype. </div>
+    <div class="final-prototype" style="font-size:36px; font-weight:bold; margin-top:5%">Final Clickable Prototype</div>
+    <img src="images/tb/final-prototype.gif" height="700px" style="margin-top: 3%;";>
+    <button type="button" class="btn btn-outline-primary">Try Clickable Prototype Here!</button>
+</section>
+
+<section class="reflections">
+    <div class="reflections-intro">
+        <div style="font-size:36px; font-weight:bold; margin-bottom:1%"> Reflections</div>
+    </div>    
+        <div class="container containerReflections">
+            <div class="row rowReflections">
+                <div class="col-sm reflections-col-1">
+                    <div class="reflection-title"> Importance of Usability Testing </div>
+                    <div class="reflection-text"> 
+                        Ideally undergoing more extensive usability testing throughout the design process would have been ideal, but due to time limitations I wasn’t able to complete as much usability testing between iterations as I would have liked. 
+                        <br><br>                        
+                        Throughout this challenge, usability testing provided key feedback which guided future iterations - it really emphasised the importance or testing with potentially real users to keep the concept and designs aligned with user needs and expectations.
+                    </div>
+                </div>
+                <div class="col-sm reflections-col-1">
+                    <div class="reflection-title"> Expectations and Prioritisation </div>
+                    <div class="reflection-text"> 
+                        Being a 3 week individual design challenge meant that I had to set realistic expectations of what I was going to try and achieve from the outset. 
+                        <br><br>                        
+                        Throughout this challenge I quickly learnt the importance of prioritising with regards to research methods, features I wanted to implement, and the overall look and feel of the high fidelity prototype. 
+                        <br><br>
+                        It also required me to think about what was really important to users, and to prioritise working on these things first. 
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<footer>
+    <div>Let's connect!</div>
+        <div class="icons">
+            <img src="https://workspace.google.com/static/img/products/png/gmail.png?cache=f50ecb6" width="30px">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" height="27px">
+        </div>
+</footer>
+
+ </body>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="js/index.js"></script>

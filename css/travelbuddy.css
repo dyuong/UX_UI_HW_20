@@ -19,6 +19,7 @@ nav {
     z-index: 999;
 }
 
+
 .nav {
     all:unset;
     display: flex;
@@ -35,8 +36,13 @@ nav {
     margin-left: auto;
 }
 
-.nav-item:hover {
+nav a:hover {
     font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
 }
 
 .tb-intro {
@@ -48,12 +54,9 @@ nav {
 }
 
 #line1 {
-    font-size: 40px;
+    font-size: 48px;
     font-weight: bold;
-    padding: 10px;
-}
-
-#line1:hover {
+    padding: 5px;
     color:#0054E6;
 }
 
@@ -82,15 +85,15 @@ nav {
     color: #0054E6;
     border: solid 2px #0054E6;
     font-size: 24px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .summary {
     display: flex;
     flex-direction: row;
     justify-content:center;
-    height: 400px;
+    height: 420px;
     background-color: #EBEBEB;
 }
 
@@ -113,11 +116,11 @@ nav {
 }
 
 #problem, #solution {
-    margin: 2%;
+    margin: 5% 2%;
 }
 
 #myrole, #timeline, #ip {
-    margin: 2%;
+    margin: 4% 2%;
 }
 
 .designprocess {
@@ -176,14 +179,10 @@ nav {
     margin-top: 5%;
 }
 
-.surveys {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 75%;
-    margin-top: 5%;
+.container-graphs {
+    margin-top: 3%;
+    max-width: 1400px;
 }
-
 .graphs {
     display: flex;
     flex-direction: column;
@@ -225,12 +224,12 @@ nav {
 }
 
 .user-insights {
-    color: #0054E6;
+    color: #862ECC;
     font-size: 16px;
     font-weight: 500;
     padding: 30px;
-    margin-top: 3%;
-    background-color: #EEEEEE;
+    margin-top: 2%;
+    border: solid 2px #862ECC;
     border-radius: 10px;
 }
 
@@ -242,6 +241,14 @@ nav {
     margin-top: 3%;
 }
 
+.persona-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+    font-size: 20px;
+    font-weight: 500;
+}
 
 .previous, .next {
     background-color: RGB(0,0,0,0);
@@ -249,4 +256,150 @@ nav {
     margin: 10px;
 }
 
+.problem-statement {
+    width: 800px;
+    color: #0054E6;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 30px;
+    margin-top: 3%;
+    border-radius: 10px;
+    border: solid 2px #0054E6;
+}
 
+.ideate {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.ideate-intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.prototype {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.prototype-intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.initial-wireframes {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.containerFeedback {
+    margin-top: 3%;
+}
+
+.rowFeedback {
+    text-align: center;
+}
+
+.feedback-col-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-title {
+    padding: 5px 0px;
+    font-size: 24px;
+    font-weight: 600;
+} 
+
+.feedback-text {
+    text-align: start;
+    margin-top: 3%;
+    width: 75%;
+}
+
+.prototype button {
+    margin-top: 2%;
+    border-radius: 30px;
+    color: #0054E6;
+    border: solid 2px #0054E6;
+    font-size: 24px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.reflections {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 5% 0%;
+}
+
+.reflections-intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 77%;
+}
+
+.containerReflections {
+    margin-top: 1%;
+}
+
+.rowReflections {
+    text-align: center;
+    --bs-gutter-x: 10rem;
+}
+
+.reflections-col-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.reflection-title {
+    font-size: 24px;
+    font-weight: 600;
+} 
+
+.reflection-text {
+    text-align: start;
+    margin-top: 3%;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons img {
+    box-sizing: unset;
+    padding: 10px;
+    margin-top: 10px;
+}
