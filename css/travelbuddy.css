@@ -20,8 +20,8 @@ nav {
 }
 
 
-.nav {
-    all:unset;
+.navigation {
+    all: unset;
     display: flex;
     margin-right: 6%;
     justify-content: space-around;
@@ -34,6 +34,7 @@ nav {
     display: inline;
     vertical-align: top;
     margin-left: auto;
+    font-size: 18px;
 }
 
 nav a:hover {
@@ -359,6 +360,8 @@ nav a {
 
 .containerReflections {
     margin-top: 1%;
+    max-width: 100%;
+    --bs-gutter-x: 0;
 }
 
 .rowReflections {

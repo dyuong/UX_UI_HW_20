@@ -139,8 +139,9 @@ nav a {
     margin-top: 10px;
 }
 
-button:hover {
-    font-weight: bold;
+.travelbuddy button:hover {
+    color: #87AEF7;
+    background-color: white;
 }
 
 .giftofbread {
@@ -174,6 +175,11 @@ button:hover {
     margin-top: 10px;
 }
 
+.giftofbread button:hover {
+    color: #FFF6E0;
+    background-color: #3C3C3C;
+}
+
 .newme {
     height: 600px;
     background-color: #F9E5EC;
@@ -205,6 +211,10 @@ button:hover {
     margin-top: 10px;
 }
 
+.newme button:hover {
+    color: #F9E5EC;
+    background-color: #403A50;
+}
 
 
 .abc {
@@ -236,6 +246,11 @@ button:hover {
     color: white;
     font-size: 20px;
     margin-top: 10px;
+}
+
+.abc button:hover {
+    color: #434C5F;
+    background-color: white;
 }
 
 footer {
